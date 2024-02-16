@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: "Vesper Libre", serif;
   color: #1a1a1a;
   line-height: 1.5;
@@ -7,51 +7,58 @@
   font-style: normal;
 }
 
-.header,footer {
+header {
   background-color: #000000;
-  color: fff;
+  color: #ffffff;
+  text-align: center
+}
+
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
   text-align: center;
 }
 
+
+#pitchfork-logo {
+  width: 100%;
+  padding-top: 8px;
+}
 
 /* Target the logo in the header using an ID
 Set the width to 100px
 Add 8px of padding to the top */
 
-.main {
+main {
   padding: 20px;
 }
 
 
-.h1 {
+h1 {
   font-size: 2rem;
   line-height: 1.3;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
+.news {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: .85rem;
+  border-bottom: 2px;
+  border-bottom: #ff3530;
+}
 
-/* Target the article category 'News' using a class
-Change display property to inline-block
-Change text to be displayed as uppercase
-Set font size to be .85rem 
-Add border bottom with values 2px solid #ff3530*/
-
-
-/* Select figcaption, article category, sub-title, author, date and h2
-Change font family to Open Sans
-
-
-Select author and date
-Change font size to .85rem
-Remove margin bottom by setting it to 0
-
-
-Select figure
-Change margin top and bottom to 1.25em, and left and right to 0. For example margin: 1.25em 0; */
+figure {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  margin-left: 0;
+  margin-right: 0;
+}
 
 
-.figcaption {
+figcaption {
   font-size: .75rem;
   align-content: center;
   color: #757575;
