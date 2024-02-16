@@ -65,7 +65,11 @@ figcaption {
   font-style: italic;
 }
 
-
+caption {
+  font-size: .75;
+  align-content: center;
+  color: #757575;
+}
 
 
 
