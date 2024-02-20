@@ -57,11 +57,8 @@ caption {
   margin-bottom: 0;
 }
 
-.figure {
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
-  margin-left: 0;
-  margin-right: 0;
+figure {
+  margin: 1.25rem 0;
 }
 
 figcaption {
