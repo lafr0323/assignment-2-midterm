@@ -7,28 +7,21 @@ body {
   font-style: normal;
 }
 
-header {
+header, footer {
   background-color: #000000;
   color: #ffffff;
   text-align: center
 }
 
-
-footer {
-  background-color: #000000;
-  color: #ffffff;
-  text-align: center;
+img {
+  width: 100%;
 }
-
 
 #pitchfork-logo {
   width: 100px;
   padding-top: 8px;
 }
 
-/* Target the logo in the header using an ID
-Set the width to 100px
-Add 8px of padding to the top */
 
 main {
   padding: 20px;
@@ -46,16 +39,11 @@ h1 {
   display: inline-block;
   text-transform: uppercase;
   font-size: .85rem;
-  border-bottom: 2px;
-  border-bottom: #ff3530;
+  border-bottom: 2px solid #ff3530;
 }
 
-
-figcaption, article-category, sub-title, author, date, h2 {
-  font-size: .75rem;
-  align-content: center;
-  color: #757575;
-  font-style: italic;
+#open {
+  font-family:"Open Sans", sans-serif;
 }
 
 caption {
@@ -64,12 +52,12 @@ caption {
   color: #757575;
 }
 
-author, date {
+.author, .date {
   font-size: .85rem;
   margin-bottom: 0;
 }
 
-figure {
+.figure {
   margin-top: 1.25em;
   margin-bottom: 1.25em;
   margin-left: 0;
@@ -83,8 +71,20 @@ figcaption {
   font-style: italic;
 }
 
+.nominee-list {
+  list-style: none;
+  padding-left: 0;
+}
 
+a:link {
+  color: #1a1a1a;
+  text-decoration: underline;
+}
 
+a:hover {
+  text-decoration: none;
+  color: #ff3530;
+}
 
 
 
